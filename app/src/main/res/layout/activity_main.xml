@@ -15,6 +15,7 @@
         android:layout_marginBottom="40dp"
         android:fontFamily="monospace"
         android:text="~~~Grade Calculator~~~"
+        android:textStyle="bold"
         android:textSize="27dp" />
 
     <EditText
@@ -26,7 +27,7 @@
         android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="Quizzes 15%"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/homework"
@@ -37,7 +38,7 @@
         android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="Homework 25%"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/midterm"
@@ -48,7 +49,7 @@
         android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="Midterms 30%"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/finals"
@@ -59,7 +60,7 @@
         android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="Finals 30%"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/calculate"
@@ -91,6 +92,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="MAKE ME EMPTY LATER!!!" />
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="" />
 
 </LinearLayout>
