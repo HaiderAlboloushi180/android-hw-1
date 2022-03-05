@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (finalResult >= 93) {
                     grade.setText("A++++++++ KAFOOOOO 😎: " + finalResult);
                 } else if (finalResult >= 90) {
-                    grade.setText("A-, you did good but your parents might judge you 👏: " + finalResult);
+                    grade.setText("A-, good but your parents might judge you 👏: " + finalResult);
                 } else if (finalResult >= 87) {
                     grade.setText("B+, ok ok aight aight 👍: " + finalResult);
                 } else if (finalResult >= 83) {
